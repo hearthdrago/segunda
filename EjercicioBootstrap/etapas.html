@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio Bootstrap-hittler</title>
+	<link  href="css/custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/dd2ae4f4ef.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<img src="public/img/logo1.jpg" width="150px" height="60px" alt="">
+				<a href="" class="navbar-brand">History</a>
+			</div>
+			<div class="collapse navbar-collapse " id="mynavbar">
+			<ul class="nav navbar-nav">
+				<li ><a href="index.html">Home</a></li>
+				<li><a href="secondwar.html">Second War</a></li>
+				<li class="active"><a href="etapas.html">Etapas</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><input type="search" placeholder="Search..." ><button><span class="glyphicon glyphicon-search"></span></button></li>
+				<li><a href="#"> <span class="glyphicon glyphicon-user"></span>Registro</a></li>
+				<li><a href="#"> <span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container responsive">
+		<br><br><br>
+		<div class= "container"align="center" >
+			<h1>Etapas</h1>
+			<img src="public/img/etapass.png" alt="" class="img-responsive">
+		</div>
+		<ul class="nav nav-tabs">
+		<li class="active"> <a data-toggle="tab" href="#descripcion">Descripcion</a></li>
+		<li> <a data-toggle="tab" href="#especificaciones">Especificaciones</a></li>
+		<li> <a data-toggle="tab" href="#modificaciones">Modificaciones</a></li>
+	</ul>
+	
+	<div class="tab-content">
+		<div class="tab-pane fade in active" id="descripcion">
+			<h3>Descripcion</h3>
+			<p>Primera etapa de la Guerra (1 de septiembre de 1939 — 21 de junio de 1941)</p>
+			<p>El 1 de septiembre de 1939 Alemania atacó a Polonia. El 3 de septiembre Gran Bretaña y Francia declararon la guerra a Alemania. En abril y junio de 1940 las tropas alemanas ocuparon Dinamarca y Noruega, el 10 de mayo de Berlín 1940 ataca a Bélgica (que capitula el 28 de mayo), Holanda (capitula el 14 de mayo), Luxemburgo, y luego a través de estos países, ataca Francia (capitula el 22 de junio).
+			</p>
+		</div>
+		<div class="tab-pane fade in " id="especificaciones">
+			<h3>Especificaciones</h3>
+		<table class="table table-striped table-hover">
+			<thead>
+				<tr>
+					<th>Etapa</th>
+					<th>Descripcion</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Etapa1</td>
+					<td>1 de septiembre de 1939 / 21 de junio de 1941</td>
+				</tr>
+				<tr>
+					<td>Etapa2</td>
+					<td>22 de junio de 1941 / 18 de noviembre de 1942</td>
+				</tr>
+				<tr>
+					<td>Etapa3</td>
+					<td>19 de nov de 1942 / 31 de diciembre de 1943</td>
+				</tr>
+				<tr>
+					<td>Etapa4</td>
+					<td>1 de enero de 1944 / 9 de mayo de 1945</td>
+				</tr>
+				<tr>
+					<td>Etapa5</td>
+					<td>9 de mayo de 1945 / 2 de septiembre de 1945</td>
+				</tr>
+				<tr>
+			</tbody>
+		</table>
+		</div>
+		<div class="tab-pane fade in " id="modificaciones">
+			<h3>Modificaciones</h3>
+			<p>Sin modificaciones importantes</p>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<h2>Lo mas reelevante de la segunda guerra mundial...</h2>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-responsive" src="public/img/susto.jpg" >
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive" src="public/img/bombaaa.jpg">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-responsive" src="public/img/explosion.jpg">
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive" src="public/img/avionn.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img class="img-responsive" src="public/img/ee.jpg">
+			</div>			
+		</div>
+			
+		<div class="row">
+			<div class="col-md 12">
+				<h1>¡¡ Las guerras se pelearán con armas, pero son ganadas por hombres !!<span class="glyphicon glyphicon-thumbs-up"></span></h1>
+			</div>
+		</div>
+	</div>
+	<form class="form-inline">
+		<h3>Obtener mas informcion:</h3>
+			<div class="form-group">
+				<label for="email">Nombre</label>
+				<input type="text" class="form-control"  placeholder="Nombre...">	
+			</div>
+			<div class="form-group">
+				<label for="email">Email address:</label>
+				<input type="email" class="form-control" placeholder="example@email.com">	
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" placeholder="Password...">	
+			</div>
+			<div class="form-group">
+				<label for="pwd">Telefono:</label>
+				<input type="text" class="form-control" placeholder="Tel...">
+			</div>
+			<div class="form-group">
+				<label for="">
+					<input type="checkbox">Enviar correo
+				</label>
+			</div>
+			<div class="form-group">
+				<label for="">
+					<input type="checkbox">Contacto por telefono
+				</label>
+			</div>
+			<br>
+			<button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
+	<hr>
+	<div class="row" >
+		<div class="col-md-4">
+			<h3>Contacto</h3>
+			<p>Jonathan Renteria</p>
+			<p>Correo: jona.64.shivas@gmail.com</p>
+			<p>Tel: 6141163714</p>
+		</div>
+		<div class="col-md-4">
+			<h3>Sigueme  en:</h3>
+				<a href=""><span class="fa fa-youtube fa-3x"></span></a>
+				<a href=""><span class="fa fa-twitter fa-3x"></span></a>
+				<a href=""><span class="fa fa-facebook fa-3x"></span></a>
+		</div>
+		<div class="col-md-4">
+			<h3>Acerca del sitio</h3>
+			<p>Este sitio contiene informacion de nuestra historia espero les sirva agradecemos su preferencia.</p>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
